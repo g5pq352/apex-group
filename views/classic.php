@@ -6,7 +6,7 @@ if (!isset($_SESSION)) {
 if($_SESSION['checkPrev'] != '' && $_SESSION['checkPrev'] != 0){
 	$_SESSION['checkPrev'] = 0;
 
-	header('Location: classic.php');
+	header('Location: classic');
 	exit;
 }
 ?>
