@@ -441,7 +441,7 @@
 
 
     $(function(){
-        TweenMax.delayedCall(.3, function () {
+        TweenMax.delayedCall(.5, function () {
             ScrollTrigger.create({
                 toggleActions: "play pause resume reverse", //重覆觸發
                 trigger: "#manSpace",
@@ -533,7 +533,7 @@
         });
 
 
-        TweenMax.delayedCall(.2, function () {
+        TweenMax.delayedCall(.4, function () {
             horizonHandler('#horizontalWrap');
             horizonHandlerIntegrated('#integratedWrap');
         })
