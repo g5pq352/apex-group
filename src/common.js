@@ -146,6 +146,19 @@ $(".menuOpen").on("click", function(){
 	$(".menuWrap").toggleClass("opacity-0 pointer-events-none")
 })
 
+$("#backtotop").on("click", function(){
+	gsap.to($(window), 1.2, {
+		scrollTo: {
+			y: 'body',
+		},
+		ease:Power2.easeInOut,
+		onComplete: function() {}
+	})
+})
+
+
+
+
 function titleEnter(){
 	const Observer = new IntersectionObserver((entries, observer) => {
 	    entries.forEach(entry => {

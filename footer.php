@@ -5,7 +5,7 @@
     	<div class="mb-32"><img src="images/footer-logo.svg" class="mx-auto"></div>
 
 		<div class="flex justify-between border-b border-gray-600 mb-5 pb-6">
-			<div class="flex items-end">
+			<div class="flex items-end basic-hover" id="backtotop">
 				<svg width="19.91" height="42.59" viewBox="0 0 19.91 42.59">
 					<line x1="19.41" y1="7.41" x2="19.41" y2="42.59" style="fill: none; stroke: #afafaf; stroke-miterlimit: 10;"/>
 					<polygon points="19.91 0 0 42.59 3.45 42.59 19.91 7.41 19.91 0" style="fill: #4d4d4d;"/>
