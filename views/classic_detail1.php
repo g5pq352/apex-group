@@ -285,6 +285,8 @@ $(function(){
 		})
 	});
 
-	horizonHandler('#horizontalWrap');
+	TweenMax.delayedCall(.2, function () {
+		horizonHandler('#horizontalWrap');
+	})
 })
 </script>
