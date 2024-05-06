@@ -523,7 +523,7 @@ class classicSlider {
 			width: "100vw",
 			ease: Power4.easeInOut,
 			onComplete: () =>{
-				var newUrl = '<?= $base_rul ?>/classic/' + `classic${this._index}`;
+				var newUrl = 'classic/' + `classic${this._index}`;
 				location.href = newUrl
 				// window.history.pushState(null, null, newUrl);
 				// location.reload();
