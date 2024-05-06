@@ -523,7 +523,7 @@ class classicSlider {
 			width: "100vw",
 			ease: Power4.easeInOut,
 			onComplete: () =>{
-				var newUrl = 'http://127.0.0.1/apex-group/' + `classic_detail${this._index}.php`;
+				var newUrl = 'http://127.0.0.1/apex-group/classic/' + `classic${this._index}`;
 				location.href = newUrl
 				// window.history.pushState(null, null, newUrl);
 				// location.reload();

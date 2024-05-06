@@ -18,4 +18,4 @@
 <meta name="description" content="中陽集團「堅持要做就做最好，只做第一不做第二的第一品牌旺盛企圖心」，從專業出發，在熟悉的領域裡，創造出領先時代潮流的全新事業格局。">
 
 
-<link rel="stylesheet" href="stylesheets/style.css">
+<link rel="stylesheet" href="<?= $baseurl ?>/stylesheets/style.css">

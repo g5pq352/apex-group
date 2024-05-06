@@ -76,7 +76,7 @@
 									<div class="font-ch">/　公共建築</div>
 								</div>
 							</div>
-							<div class=""><a href="latest_detail.php"><svg height="21.64" viewBox="0 0 132.12 21.64">
+							<div class=""><a href="latest/經濟部台中軟體園區"><svg height="21.64" viewBox="0 0 132.12 21.64">
 								<polygon points="132.12 21.6 95.75 4.6 95.75 7.54 125.79 21.6 132.12 21.6" style="fill: #888;"/>
 								<line x1="107.9" y1="20.89" y2="20.89" style="fill: none; stroke: #888; stroke-miterlimit: 10; stroke-width: 1.5px;"/>
 								<g>
@@ -104,7 +104,7 @@
 									<div class="font-ch">/　商辦大樓</div>
 								</div>
 							</div>
-							<div class=""><a href="latest_detail.php"><svg height="21.64" viewBox="0 0 132.12 21.64">
+							<div class=""><a href="latest/中陽旭月"><svg height="21.64" viewBox="0 0 132.12 21.64">
 								<polygon points="132.12 21.6 95.75 4.6 95.75 7.54 125.79 21.6 132.12 21.6" style="fill: #888;"/>
 								<line x1="107.9" y1="20.89" y2="20.89" style="fill: none; stroke: #888; stroke-miterlimit: 10; stroke-width: 1.5px;"/>
 								<g>
@@ -150,7 +150,7 @@
 									<div class="font-ch">/　住宅大樓</div>
 								</div>
 							</div>
-							<div class=""><a href="latest_detail.php"><svg height="21.64" viewBox="0 0 132.12 21.64">
+							<div class=""><a href="latest/表參道"><svg height="21.64" viewBox="0 0 132.12 21.64">
 								<polygon points="132.12 21.6 95.75 4.6 95.75 7.54 125.79 21.6 132.12 21.6" style="fill: #888;"/>
 								<line x1="107.9" y1="20.89" y2="20.89" style="fill: none; stroke: #888; stroke-miterlimit: 10; stroke-width: 1.5px;"/>
 								<g>
@@ -178,7 +178,7 @@
 									<div class="font-ch">/　住宅大樓</div>
 								</div>
 							</div>
-							<div class=""><a href="latest_detail.php"><svg height="21.64" viewBox="0 0 132.12 21.64">
+							<div class=""><a href="latest/中陽森"><svg height="21.64" viewBox="0 0 132.12 21.64">
 								<polygon points="132.12 21.6 95.75 4.6 95.75 7.54 125.79 21.6 132.12 21.6" style="fill: #888;"/>
 								<line x1="107.9" y1="20.89" y2="20.89" style="fill: none; stroke: #888; stroke-miterlimit: 10; stroke-width: 1.5px;"/>
 								<g>

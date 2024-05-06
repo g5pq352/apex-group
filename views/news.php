@@ -64,7 +64,7 @@
 					<div class="font-ch font-bold text-[33px] text-gray-700 tracking-wide mb-5">曲中有真意 / 飛瀑映月輝</div>
 					<div class="font-ch text-gray-300 tracking-normal">中陽文創藝術成立於107年11月，位於台中大里的藝廊空間以當代藝術為主軸，以「讓生活與藝術更貼近」為初衷，積極蒐集來自在地與全球的藝術作品，並引進全球知名博物館商品。</div>
 				</div>
-				<div class="flex items-end"><a href="javascript:;"><svg width="132.12" height="21.64" viewBox="0 0 132.12 21.64">
+				<div class="flex items-end"><a href="news/曲中有真意 飛瀑映月輝"><svg width="132.12" height="21.64" viewBox="0 0 132.12 21.64">
 					<polygon points="132.12 21.6 95.75 4.6 95.75 7.54 125.79 21.6 132.12 21.6" style="fill: #888;"/>
 					<line x1="107.9" y1="20.89" y2="20.89" style="fill: none; stroke: #888; stroke-miterlimit: 10; stroke-width: 1.5px;"/>
 					<g>
@@ -118,7 +118,7 @@
             	content: `關懷身心障礙兒童，中陽集團14日攜手中市警局霧峰警分局成功派出所及民間企業、社福團體等，邀請大里塗城國小特教生家庭至異想新樂園，寓教於樂幫助孩子們走出校園。`,
             }]
 		}" class="grid grid-cols-3 gap-x-12 gap-y-28">
-			<li v-for="(p, i) in posts" class="group tracking-normal"><a href="news_detail.php">
+			<li v-for="(p, i) in posts" class="group tracking-normal"><a :href="'news/'+p.title">
 				<div class="mb-8 text-gray-400">
 					<div class="text-xs font-ch mb-1">NEWS</div>
 					<div class="font-bold text-xl">0{{i+1}}</div>

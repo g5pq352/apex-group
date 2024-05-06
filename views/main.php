@@ -438,7 +438,7 @@
 </body>
 
 <?php include 'script.php'; ?>
-<script src="dist/shader-main.js"></script>
+<script src="<?= $baseurl ?>/dist/shader-main.js"></script>
 </html>
 
 <script>

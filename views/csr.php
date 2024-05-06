@@ -53,15 +53,15 @@
 			<div class="pt-12 flex-auto">
 				<ul v-scope="{
 					posts: [{
-						link: 'csr_detail.php',
+						link: `csr/走吧! 3.12一起植樹去`,
 						cat: 'Green day',
 						date: '2024.03.01',
-						title: '走吧! 3/12一起植樹去',
+						title: '走吧! 3.12一起植樹去',
 						content: `中陽集團致力於營造綠意盎然的城市。3/12舉行戶外植樹日，鼓勵住戶共同參與這場自然奏鳴曲。植樹不僅是美麗風景，更是對未來世代的許諾，為環境永續發展奠定基礎......`,
 						pic_1: 'images/csr-1-1.jpg',
 						pic_2: 'images/csr-1-2.jpg',
 					}, {
-						link: 'csr_detail.php',
+						link: `csr/平安夜，與孩子們的約定，聖誕老人到你家`,
 						cat: 'Charity ',
 						date: '2023.12.24',
 						title: '平安夜，與孩子們的約定，聖誕老人到你家',
@@ -69,7 +69,7 @@
 						pic_1: 'images/csr-2-1.jpg',
 						pic_2: 'images/csr-2-2.jpg',
 					}, {
-						link: 'csr_detail.php',
+						link: `csr/2023 年末，全員活力淨街`,
 						cat: 'Daily life',
 						date: '2023.12.20',
 						title: '2023 年末，全員活力淨街',
@@ -77,7 +77,7 @@
 						pic_1: 'images/csr-3-1.jpg',
 						pic_2: 'images/csr-3-2.jpg',
 					}, {
-						link: 'csr_detail.php',
+						link: `csr/5000份暖心煲湯，寒冷的日子裡，分享中陽溫度`,
 						cat: 'Green day',
 						date: '2024.03.01',
 						title: '5000份暖心煲湯，寒冷的日子裡，分享中陽溫度',
@@ -85,7 +85,7 @@
 						pic_1: 'images/csr-4-1.jpg',
 						pic_2: 'images/csr-4-2.jpg',
 					}, {
-						link: 'csr_detail.php',
+						link: `csr/森呼吸，一同揮灑綠色魔法打造綠色城市`,
 						cat: 'Green day',
 						date: '2024.03.01',
 						title: '森呼吸，一同揮灑綠色魔法打造綠色城市',

@@ -65,7 +65,7 @@
 		<div class="flex h-[110vh]">
 			<div class="flex-auto pl-[154px] pr-[92px] pb-[94px] bg-[#F9F9EF]">
 				<div class="flex items-end h-full">
-					<a :href="'asset_detail.php?id='+first.id" class="group inline-block bg-white w-full p-10 hover:bg-black-300">
+					<a :href="'asset/'+first.id" class="group inline-block bg-white w-full p-10 hover:bg-black-300">
 						<div class="relative h-[54vh]" :style="'background: url('+ first.pic +') center center / cover'">
 							<div class="absolute tf w-28 h-28 rounded-full bg-[#1A1A1A] flex items-center justify-center opacity-0 transition-all duration-300 group-hover:opacity-100"><div class="text-white">MORE</div></div>
 						</div>
@@ -108,7 +108,7 @@
 
 			<div class="flex-auto pl-[130px] pr-[260px] pb-[94px]">
 				<div class="flex items-end h-full">
-					<a :href="'asset_detail.php?id='+second.id" class="group inline-block bg-[#F0F0F0] w-full p-10 hover:bg-black-300">
+					<a :href="'asset/'+second.id" class="group inline-block bg-[#F0F0F0] w-full p-10 hover:bg-black-300">
 						<div class="relative h-[45vh]" :style="'background: url('+ second.pic +') center center / cover'">
 							<div class="absolute tf w-28 h-28 rounded-full bg-[#1A1A1A] flex items-center justify-center opacity-0 transition-all duration-300 group-hover:opacity-100"><div class="text-white">MORE</div></div>
 						</div>
@@ -157,7 +157,7 @@
 
 			<ul class="assetList grid grid-cols-3 px-[155px] py-[208px]">
 				<li v-for="p in lists" class="border-b border-[#80808040] pb-16 mb-16">
-					<a :href="'asset_detail.php?id='+p.id" class="group block bg-[#F0F0F0] p-7 hover:bg-black-300">
+					<a :href="'asset/'+p.id" class="group block bg-[#F0F0F0] p-7 hover:bg-black-300">
 						<div class="relative h-[40vh]" :style="'background: url('+ p.pic +') center center / cover'">
 							<div class="absolute tf w-28 h-28 rounded-full bg-[#1A1A1A] flex items-center justify-center opacity-0 transition-all duration-300 group-hover:opacity-100"><div class="text-white">MORE</div></div>
 						</div>

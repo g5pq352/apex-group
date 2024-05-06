@@ -45,17 +45,17 @@
 			</div>
 
 			<div class="flex-auto pt-[66px]">
-				<form action="progress_detail.php" class="projectLogin select-mod" id="projectLogin">
+				<form action="javascript:;" class="projectLogin select-mod" id="projectLogin">
 					<div class="item mb-16">
 						<div class="flex items-center mb-2">
 							<div class="text-xl mr-8">Project Name</div>
 							<div class="font-ch">建案名稱</div>
 						</div>
-						<select name="" id="" class="font-ch font-medium tracking-normal w-[416px]">
-							<option value="">表參道 Omotesando</option>
-							<option value="">中陽旭月 Above Expectation</option>
-							<option value="">表參道 Omotesando</option>
-							<option value="">中陽森 Full House</option>
+						<select name="project" id="" class="font-ch font-medium tracking-normal w-[416px]">
+							<option value="表參道 Omotesando">表參道 Omotesando</option>
+							<option value="中陽旭月 Above Expectation">中陽旭月 Above Expectation</option>
+							<option value="表參道 Omotesando">表參道 Omotesando</option>
+							<option value="中陽森 Full House">中陽森 Full House</option>
 						</select>
 					</div>
 					<div class="item mb-7">
@@ -97,4 +97,8 @@
 
 <script>
 $("select").niceSelect();
+
+$(".submit").on("click", function(){
+	location.href = 'progress/' + $("select[name='project']").val()
+})
 </script>

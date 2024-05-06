@@ -238,7 +238,7 @@ function Omotesando({now, lists}) {
 		mounted: listInit,
 
 		async getData(id) {
-			await axios.post('getfancydata.php', {
+			await axios.post('../getfancydata.php', {
 				id: id,
 			}).then(({data}) => {
 				$fancy.sliders = data.sliders

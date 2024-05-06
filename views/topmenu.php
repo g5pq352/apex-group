@@ -1,5 +1,5 @@
 <header class="fixed top-0 w-full py-10 z-50 transition-all duration-500" id="topmenuWrap">
-	<div class="text-center"><a href="./main.php" class="inline-block" id="top-logo"><img src="images/topmenu-logo.svg"></a></div>
+	<div class="text-center"><a href="<?= $baseurl ?>/main" class="inline-block" id="top-logo"><img src="images/topmenu-logo.svg"></a></div>
 </header>
 
 <div class="menuOpen fixed top-10 right-10 pr-3 cursor-pointer z-90 transition-all duration-500">
@@ -13,7 +13,7 @@
 
 <div class="menuWrap fixed w-full h-screen top-0 left-0 z-80 opacity-0 pointer-events-none transition-all duration-500">
 	<div class="absolute w-full h-full top-0 left-0" style="background: url('images/menu-bg.webp') center center / cover;"></div>
-	<div class="absolute left-[58px] top-8 z-10"><a href="./main.php"><img src="images/open-logo.svg"></a></div>
+	<div class="absolute left-[58px] top-8 z-10"><a href="<?= $baseurl ?>/main"><img src="images/open-logo.svg"></a></div>
 
 	<div class="relative h-full flex justify-between items-stretch px-16 py-12">
 		<div class="self-end">
@@ -69,71 +69,71 @@
 				posts: [{
 					ch: '中陽首頁',
 					en: 'Home',
-					link: './main.php',
+					link: '<?= $baseurl ?>/main',
 					submenu: null
 				}, {
 					ch: '最新建案',
 					en: 'Latest Projects',
-					link: './latest.php',
+					link: '<?= $baseurl ?>/latest',
 					submenu: null
 				}, {
 					ch: '經典建案',
 					en: 'Classic Projects',
-					link: './classic.php',
+					link: '<?= $baseurl ?>/classic',
 					submenu: null
 				}, {
 					ch: '所有建案',
 					en: 'All Projects',
-					link: './project_all.php',
+					link: '<?= $baseurl ?>/project_all',
 					submenu: null
 				}, {
 					ch: '關於中陽',
 					en: 'About',
-					link: './about.php',
+					link: '<?= $baseurl ?>/about',
 					submenu: null
 				}, {
 					ch: '中陽集團',
 					en: 'Apex Group',
-					link: './corporation.php',
+					link: '<?= $baseurl ?>/corporation',
 					submenu: null
 				}, {
 					ch: '消息公告',
 					en: 'News',
-					link: './news.php',
+					link: '<?= $baseurl ?>/news',
 					submenu: null
 				}, {
 					ch: '企業永續',
 					en: 'CSR',
-					link: './csr.php',
+					link: '<?= $baseurl ?>/csr',
 					submenu: null
 				}, {
 					ch: '資產租賃',
 					en: 'Asset Leasing & Sales',
-					link: './asset.php',
+					link: '<?= $baseurl ?>/asset',
 					submenu: null
 				}, {
 					ch: '工程進度',
 					en: 'Progress',
-					link: './progress.php',
+					link: '<?= $baseurl ?>/progress',
 					submenu: null
 				}, {
 					ch: '人才招募',
 					en: 'Recruit',
-					link: './recruit.php',
+					link: '<?= $baseurl ?>/recruit',
 					submenu: null
 				}, {
 					ch: '客戶服務',
 					en: 'Service',
-					link: './service.php',
+					link: '<?= $baseurl ?>/service',
 					submenu: [{
 						title: '聯絡我們',
-						link: './service.php',
+						link: '<?= $baseurl ?>/service',
 					}, {
 						title: '預約看屋',
-						link: './service.php?c=0',
+						link: '<?= $baseurl ?>/service?c=0',
 					}, {
 						title: '線上報修',
-						link: './service.php?c=1',
+						link: '<?= $baseurl ?>/service?c=1',
 					}]
 				}]
 			}">
