@@ -10,8 +10,6 @@ source
 upload_image
 upload_file
 thumbs
-dist
-stylesheets
 .rar
 .zip
 .cache
