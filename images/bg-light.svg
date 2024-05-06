@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" width="502.35" height="199.97" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 502.35 199.97">
+  <defs>
+    <radialGradient id="_未命名漸層_5" data-name="未命名漸層 5" cx="363.36" cy="99.99" fx="363.36" fy="99.99" r="212.24" gradientTransform="translate(-170.33 53.93) scale(1.16 .46)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f9f9ef"/>
+      <stop offset=".38" stop-color="#f9f9ef" stop-opacity=".58"/>
+      <stop offset=".68" stop-color="#f9f9ef" stop-opacity=".27"/>
+      <stop offset=".89" stop-color="#f9f9ef" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#f9f9ef" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="_底" data-name="底">
+    <ellipse cx="251.18" cy="99.99" rx="251.18" ry="99.99" style="fill: url(#_未命名漸層_5); opacity: .25;"/>
+  </g>
+</svg>
