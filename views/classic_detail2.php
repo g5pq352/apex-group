@@ -285,7 +285,7 @@ $(function(){
 		})
 	});
 
-	TweenMax.delayedCall(.5, function () {
+	TweenMax.delayedCall(1, function () {
 		horizonHandler('#horizontalWrap');
 	})
 })

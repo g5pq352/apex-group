@@ -3,7 +3,7 @@ if (!isset($_SESSION)) {
 	session_start();
 }
 
-if($_SESSION['checkPrev'] != '' && $_SESSION['checkPrev'] != 0){
+if(isset($_SESSION['checkPrev']) && $_SESSION['checkPrev'] != '' && $_SESSION['checkPrev'] != 0){
 	$_SESSION['checkPrev'] = 0;
 
 	header('Location: classic');
