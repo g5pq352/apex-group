@@ -57,7 +57,7 @@
 				</div>
 			</div>
 
-			<div class="flex justify-between">
+			<div class="flex justify-between" id="inquiry">
 				<div class="mr-[320px]">
 					<div class="flex items-center">
 						<span v-html="cat[now]['deco']"></span>
@@ -287,7 +287,8 @@ new Vue({
 
 		var getUrlString = location.href;
 		var url = new URL(getUrlString);
-		if(url.searchParams.get('c') != ''){
+
+		if(url.searchParams.size){
 			this.now = url.searchParams.get('c')
 
 			if(this.now == 1){
@@ -300,6 +301,15 @@ new Vue({
 				$("#top-logo").attr("src", 'images/topmenu-logo.svg')
 				$(".menuOpen").removeClass("is-white-fixed")
 			}
+
+			gsap.to($(window), 1.2, {
+				scrollTo: {
+					y: '#inquiry',
+					offsetY: $(inquiry).height() * 0.1
+				},
+				ease:Power2.easeInOut,
+				onComplete: function() {}
+			})
 		}
 
 		$("select[name='inquiry']").on("change", (e) => {
