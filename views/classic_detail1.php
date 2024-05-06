@@ -264,8 +264,6 @@ var _go = gsap.timeline({
 }, 0)
 
 $(function(){
-	horizonHandler('#horizontalWrap');
-
 	var _flick_total = $(".sliderList li").length
 	var $carousel = $(".sliderList").flickity({
 		"prevNextButtons": false,
@@ -286,5 +284,7 @@ $(function(){
 			width: `${((index+1)/_flick_total*100)}%`,
 		})
 	});
+
+	horizonHandler('#horizontalWrap');
 })
 </script>
